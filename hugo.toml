@@ -1,0 +1,13 @@
+baseURL = 'https://seninsiten.com/'
+languageCode = 'tr'
+title = 'Blog'
+theme = 'papermod'
+
+[params]
+  author = "Gökhan Gürsoy"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
