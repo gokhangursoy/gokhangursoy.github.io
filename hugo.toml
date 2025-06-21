@@ -1,13 +1,83 @@
-baseURL = 'https://seninsiten.com/'
-languageCode = 'tr'
-title = 'Blog'
-theme = 'papermod'
+baseURL = "https://gokhangursoy.github.io/"
+languageCode = "tr"
+title = "Gökhan Gürsoy - Blog"
+theme = "papermod"
 
 [params]
-  author = "Gökhan Gürsoy"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
+  author                      = "Gökhan Gürsoy"
+  ShowReadingTime             = true
+  ShowShareButtons            = true
+  ShowPostNavLinks            = true
+  ShowBreadCrumbs             = true
+  ShowCodeCopyButtons         = true
+  ShowWordCount               = true
+  ShowToc                     = true
+  TocOpen                     = false
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS           = true
+  UseHugoToc                  = true
+
+  [params.profileMode]
+    enabled     = true
+    title       = "Gökhan Gürsoy"
+    subtitle    = "Yazılım Geliştirici & Teknoloji Meraklısı"
+    des         = "Merhaba! Ben Gökhan. Yazılım geliştirme, teknoloji ve hayat hakkında düşüncelerimi paylaştığım kişisel bloguma hoşgeldiniz."
+    buttons = [
+      { name = "Contact",  url = "/contact/"  },
+      { name = "Projects", url = "/projects/" }
+    ]
+    avatar      = "https://avatars.githubusercontent.com/u/your-github-username"
+    avatarTitle = "Gökhan Gürsoy"
+
+  keywords     = ["yazılım", "teknoloji", "blog", "geliştirme", "programlama"]
+  description  = "Gökhan Gürsoy'un kişisel blogu - Yazılım, teknoloji ve hayat hakkında yazılar"
+  defaultTheme = "auto"
+  comments     = false
+  hidemeta     = false
+  hideSummary  = false
+  showtoc      = false
+  tocopen      = false
+
+  socialIcons = [
+    { name = "github",   url = "https://github.com/gokhangursoy" },
+    { name = "linkedin", url = "https://linkedin.com/in/gokhan-gursoy" },
+    { name = "medium",   url = "https://gokhangursoy.medium.com/" }
+  ]
+
+[params.homeInfoParams]
+  Title   = "Merhaba, ben Gökhan! 👋"
+  Content = "Yazılım geliştirme, teknoloji ve hayat hakkında düşüncelerimi paylaştığım kişisel bloguma hoşgeldiniz."
+
+[params.fuseOpts]
+  isCaseSensitive     = false
+  shouldSort          = true
+  location            = 0
+  distance            = 1000
+  threshold           = 0.4
+  minMatchCharLength  = 0
+  keys                = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Yazılar"
+    url        = "/posts/"
+    weight     = 10
+
+  [[menu.main]]
+    identifier = "categories"
+    name       = "Kategoriler"
+    url        = "/categories/"
+    weight     = 20
+
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Etiketler"
+    url        = "/tags/"
+    weight     = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "Hakkımda"
+    url        = "/about/"
+    weight     = 40

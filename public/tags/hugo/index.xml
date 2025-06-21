@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hoşgeldiniz 👋 on Gökhan Gürsoy - Blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Hoşgeldiniz 👋 on Gökhan Gürsoy - Blog</description>
+    <title>Hugo on Gökhan Gürsoy - Blog</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on Gökhan Gürsoy - Blog</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>tr</language>
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo ile Kişisel Blog Oluşturma Rehberi</title>
       <link>http://localhost:1313/posts/ilk-blog-yazim/</link>
@@ -103,88 +103,6 @@
 <hr>
 <p><em>Bu yazıyı beğendiyseniz, diğer yazılarımı da okumayı unutmayın!</em> 📚</p>
 <p><strong>Etiketler:</strong> #hugo #blog #web-gelistirme #static-site</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hakkımda</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Gökhan Gürsoy hakkında detaylı bilgiler</description>
-      <content:encoded><![CDATA[<h1 id="hakkımda-">Hakkımda 👨‍💻</h1>
-<p>Merhaba! Ben <strong>Gökhan Gürsoy</strong>, yazılım geliştirme tutkunu bir teknoloji meraklısıyım.</p>
-<h2 id="-eğitim--kariyer">🎓 Eğitim &amp; Kariyer</h2>
-<p><strong>Eğitim:</strong></p>
-<ul>
-<li>Bilgisayar Mühendisliği (Devam ediyor)</li>
-</ul>
-<p><strong>Deneyim:</strong></p>
-<ul>
-<li>Full-Stack Web Geliştirme</li>
-<li>Mobil Uygulama Geliştirme</li>
-<li>DevOps ve Cloud Computing</li>
-</ul>
-<h2 id="-teknik-beceriler">🛠️ Teknik Beceriler</h2>
-<h3 id="backend-geliştirme"><strong>Backend Geliştirme</strong></h3>
-<ul>
-<li><strong>Python</strong> - Django, Flask, FastAPI</li>
-<li><strong>Node.js</strong> - Express.js, NestJS</li>
-<li><strong>Go</strong> - Web servisleri ve mikroservisler</li>
-<li><strong>Java</strong> - Spring Boot</li>
-</ul>
-<h3 id="frontend-geliştirme"><strong>Frontend Geliştirme</strong></h3>
-<ul>
-<li><strong>React</strong> - Modern web uygulamaları</li>
-<li><strong>Vue.js</strong> - Progressive web apps</li>
-<li><strong>TypeScript</strong> - Tip güvenli geliştirme</li>
-<li><strong>CSS/SCSS</strong> - Responsive tasarım</li>
-</ul>
-<h3 id="veritabanları"><strong>Veritabanları</strong></h3>
-<ul>
-<li><strong>PostgreSQL</strong> - İlişkisel veritabanları</li>
-<li><strong>MongoDB</strong> - NoSQL çözümler</li>
-<li><strong>Redis</strong> - Cache ve session yönetimi</li>
-</ul>
-<h3 id="devops--cloud"><strong>DevOps &amp; Cloud</strong></h3>
-<ul>
-<li><strong>Docker</strong> - Containerization</li>
-<li><strong>Kubernetes</strong> - Orchestration</li>
-<li><strong>AWS</strong> - Cloud services</li>
-<li><strong>CI/CD</strong> - GitHub Actions, Jenkins</li>
-</ul>
-<h2 id="-ilgi-alanlarım">🎯 İlgi Alanlarım</h2>
-<ul>
-<li><strong>Yapay Zeka &amp; Machine Learning</strong> - AI teknolojileri ve uygulamaları</li>
-<li><strong>Blockchain</strong> - Web3 ve kripto teknolojileri</li>
-<li><strong>Open Source</strong> - Topluluk projelerine katkı</li>
-<li><strong>Teknoloji Yazıları</strong> - Deneyimlerimi paylaşma</li>
-</ul>
-<h2 id="-sürekli-öğrenme">📚 Sürekli Öğrenme</h2>
-<p>Teknoloji dünyası sürekli değişiyor ve ben de bu değişime ayak uydurmaya çalışıyorum. Her gün yeni bir şey öğrenmeye odaklanıyorum.</p>
-<p><strong>Şu anda öğrendiklerim:</strong></p>
-<ul>
-<li>Rust programlama dili</li>
-<li>Kubernetes advanced concepts</li>
-<li>GraphQL API tasarımı</li>
-</ul>
-<h2 id="-kişisel-değerler">🌟 Kişisel Değerler</h2>
-<ul>
-<li><strong>Sürekli Gelişim</strong> - Her gün daha iyi olmaya çalışıyorum</li>
-<li><strong>Paylaşım</strong> - Öğrendiklerimi başkalarıyla paylaşmayı seviyorum</li>
-<li><strong>Kalite</strong> - Kod kalitesi ve kullanıcı deneyimi önceliğim</li>
-<li><strong>İnovasyon</strong> - Yeni teknolojileri keşfetmeyi seviyorum</li>
-</ul>
-<h2 id="-iletişim">📫 İletişim</h2>
-<p>Benimle iletişime geçmek istersen:</p>
-<ul>
-<li>📧 <strong>Email:</strong> <a href="mailto:gokhan@example.com">gokhan@example.com</a></li>
-<li>🐙 <strong>GitHub:</strong> <a href="https://github.com/gokhangursoy">@gokhangursoy</a></li>
-<li>💼 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/gokhangursoy">Gökhan Gürsoy</a></li>
-<li>🐦 <strong>Twitter:</strong> <a href="https://twitter.com/gokhangursoy">@gokhangursoy</a></li>
-<li>📸 <strong>Instagram:</strong> <a href="https://instagram.com/gokhangursoy">@gokhangursoy</a></li>
-</ul>
-<hr>
-<p><em>Bu blog, teknoloji yolculuğumda öğrendiklerimi ve deneyimlerimi paylaştığım kişisel bir alan. Umarım yazılarım size de faydalı olur!</em> ✨</p>
 ]]></content:encoded>
     </item>
   </channel>
